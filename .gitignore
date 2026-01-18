@@ -1,0 +1,20 @@
+# Model files (stored on HuggingFace)
+*.pt
+*.pkl
+embeddings/
+
+# Images
+images/
+
+# Logs
+*.log
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store

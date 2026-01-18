@@ -32,25 +32,12 @@ given an outfit/scene photo, find products (shoes, tops, pants, etc.) that match
 - `download_images.py` - download images from pinterest
 
 ### model & embeddings (hugging face)
-see: [huggingface.co/[USER]/complete-the-look](https://huggingface.co/)
+see: [huggingface.co/sahirp/complete-the-look](https://huggingface.co/)
 
 - `best_model_v2.pt` - trained model weights (37MB)
 - `product_embeddings.pkl` - product embeddings (110MB, 36K products)
 - `scene_embeddings.pkl` - scene embeddings (87MB, 29K scenes)
 
-## quick start
-
-```bash
-git clone https://github.com/[USER]/complete-the-look
-cd complete-the-look
-
-# download model & embeddings from huggingface
-
-pip install torch flask numpy requests
-
-python app.py
-# open http://localhost:8000
-```
 
 ## training
 
